@@ -104,6 +104,7 @@ ENV/
 .vscode
 
 # Robot Ouput files
+/reports/
 log.html
 output.xml
 report.html
