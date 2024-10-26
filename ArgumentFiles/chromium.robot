@@ -1,16 +1,16 @@
---name API Testing
+--name Spark_Website_Testing
 --exclude donotrun
 --exclude firefox
 --exclude edge
---xunit this_repo.xml
+--xunit Spark.xml
 --listener time_logger.py
 --outputdir reports
---output this_repo-xml
---log this_repo-log
---report this_repo-report
+--output Spark-xml
+--log Spark-log
+--report Spark-report
 --variable browser:chromium
 --variable configuration:user01
---variable set_device:Empty
+--variable required_device:iPhone 13
 --loglevel TRACE
 --variable headless:false
 --debugfile debug_gc.log

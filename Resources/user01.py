@@ -1,14 +1,9 @@
 """
 Variables for the User logging in to the test site. 
-Some examples below.
+Some examples below:
+URL = 'https://google.ie'
+username = 'userName'
+password = 'password'
 """
 
-"""
-baseURL = 'https://restful-booker.herokuapp.com/'
-authURL = baseURL + 'auth'
-bookingURL = baseURL + 'booking/'
-
-# Log in details for the API
-username = 'admin'
-password = 'password123'
-"""
+baseURL = 'https://spark-hq.com'
