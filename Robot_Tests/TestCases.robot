@@ -42,9 +42,16 @@ Take screenshots of the users viewport for all pages on the website
 
     FOR    ${element}    IN    @{NAVIGATION_ITEMS}
         #Get Value From User    Are You in  Yes
-        JS Click    //*[@class='nav-main active']//a//span[contains(text(),"${element}")]
+
+        IF    $element == "Home"
+            JS Click    //button[@aria-label="Menu Toggle - Close"]
+        ELSE
+            JS Click    //*[@class='nav-main active']//a//span[contains(text(),"${element}")]
+        END
+
+
         IF    $element == "Blog"
-            sleep  1s
+            sleep  2s
             Select Cookies pop up
         END
         ${scroll_height} =  Get Scroll Size  //body
@@ -69,6 +76,7 @@ Take screenshots of the users viewport for all pages on the website
 
   
 *** Keywords ***
+
 
 
 
