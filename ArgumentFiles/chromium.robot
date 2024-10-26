@@ -1,0 +1,17 @@
+--name API Testing
+--exclude donotrun
+--exclude firefox
+--exclude edge
+--xunit this_repo.xml
+--listener time_logger.py
+--outputdir reports
+--output this_repo-xml
+--log this_repo-log
+--report this_repo-report
+--variable browser:chromium
+--variable configuration:user01
+--variable set_device:Empty
+--loglevel TRACE
+--variable headless:false
+--debugfile debug_gc.log
+Robot_Tests/
