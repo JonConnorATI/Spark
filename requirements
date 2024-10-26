@@ -1,4 +1,4 @@
 # Automation test requirements
 robotframework
 robotframework-browser
-pycountry~=22.1.10
+pycountry

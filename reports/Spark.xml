@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Spark_Website_Testing" tests="1" errors="0" failures="0" skipped="0" time="207.434" timestamp="2024-10-26T14:11:34.453511">
+<testsuite name="TestCases" tests="1" errors="0" failures="0" skipped="0" time="207.348" timestamp="2024-10-26T14:11:34.484513">
+<testcase classname="Spark_Website_Testing.TestCases" name="Take screenshots of the users viewport for all pages on the website" time="194.266">
+</testcase>
+<properties>
+<property name="Documentation" value="Describe this suite of test cases"/>
+</properties>
+</testsuite>
+</testsuite>
